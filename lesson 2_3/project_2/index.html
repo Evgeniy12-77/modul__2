@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+  body {
+    background-color: #21AE87;
+  }
+
+  .img__1 {
+    max-width: 361px; 
+    max-height: 372px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
+  .container {
+  display: flex;
+  justify-content: center;
+  } 
+
+  p {
+    margin-bottom: 45px;
+  }
+
+  .title { 
+    color: #fff;
+  }
+  .content {
+    margin-top: 41px;
+    max-width: 361px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .text {color: #fff;
+  }
+  .logo_img {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    margin-top: 36px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .green {background: linear-gradient(to right, #4AFF94, #75F1F1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @media all and (max-width: 800px) {
+      .img__1 {
+        display: none;
+      }
+
+      .container {
+        flex-direction: column-reverse;
+      }
+
+      .content {
+        margin-left: 5%;
+      }
+
+      .title {
+        font-size: 30px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .logo_img {
+        justify-content: center;
+      }
+
+      .rectangle {
+      width: 153px;
+      height: 5px;
+      background: linear-gradient(to right, rgba(74, 255, 148, 1), rgba(117, 241, 241, 1));
+      border-radius: 2.5px;
+}
+}
+</style>
+    
+
+<div class="container">
+
+  <div class="content">
+
+      <div class="title">
+        <h1>Добро <br>пожаловать <br> в Шчодрая</h1>
+      </div>
+
+      <div class="text">
+      <p class="green"> Местечко Шчодрая – это уникальный проект 
+      виртуальной территории.
+      Это древний и в то же 
+      время самый молодой, типичный и в то же время 
+      самый неповторимый населенный пункт Беларуси.
+    </p>
+    <p>Мы собрали архитектуру разных городов Беларуси, 
+      восстановили черты утерянных памятников. 
+      Все это для того, чтобы создать место, в котором 
+      каждый сможет почувствовать себя как дома. 
+    </p>
+
+      <p>В местечке Шчодрая собраны вместе все основные 
+        компоненты малого белорусского города. И все 
+        находится в шаговой доступности. Здесь есть 
+        и ратуша, и торговые ряды, есть река и мельница, 
+        есть старинная усадьба и парк при ней. Над 
+        городом некогда возвышались руины древнего 
+        замка – теперь это отреставрированный 
+        туристический комплекс. 
+      </p>
+
+      <p>Пройдитесь по улицам местечка и найдите черты <br>
+        своей малой родины. Здесь гармонично <br>
+        переплетаются архитектуры разных веков, что <br>
+        в полной мере раскрывает и показывает богатую <br>
+        и уникальную белорусскую историю. <br>
+      </p>
+
+      <p>Переместитесь в настоящее белорусское местечко <br>
+        и почувствуйте себя его жителем. И осознайте, <br>
+        что границы возможностей стали намного шире. <br>
+        Кроме того, путешествие в Шчодрую станет по- <br>
+        настоящему щедрым для вас на баллы и скидки. <br>
+      </p>
+
+      <p>Погрузитесь в удивительный мир Шчодрай <br>
+        и насладитесь приключением, которое станет <br>
+        незабываемым моментом в вашей жизни! <br>
+      </p>
+      </div>
+
+      <div class="rectangle">
+      </div>
+  </div>
+
+  <div class="logo_img">
+    <div class="logo">
+    <img src="Logo-Sch-new 3.png">
+    </div>    
+    <img class="img__1" src="Begin+final 1.png">  
+    <img class="img__1" src="Begin+final 2.png">  
+  </div>
+</div>
+</body>
+</html>
